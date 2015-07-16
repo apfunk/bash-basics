@@ -20,7 +20,7 @@ Now start up a new terminal. You should see `Hello world!` in the terminal.
 Lets look at the `ls` command. This simply lists all the files in your current directory. When you start up a new terminal it will put you in your user's home directory. If you run `ls -a` it will also list files that start with a `.`.
 
 ##### Changing Directories
-The `cd` command will change your current directory. `cd ~/` will take you back to home directory, `cd ..` will take you up one directory, and `cd -` will take you back to the previous working directory. Simply run `cd` _directory_ to step into a directory
+The `cd` command will change your current directory. `cd ~/` will take you back to home directory, `cd ..` will take you up one directory, and `cd -` will take you back to the previous working directory. Simply run `cd <directory>` to step into a directory
 
 ### Shortcuts
 Typing commands and filepaths can be cumbersome, so let's learn some keyboard shortcuts to help us be more proficient.
@@ -45,3 +45,6 @@ Navigating `vim` can be awkward at first. You need to be in _normal_ mode to nav
 To exit `vim` you **need** to be in _normal_ mode. Type `:wq` to save the file and exit `vim`. You can use `:q!` to exit without saving. `:w` will save file, but will keep you inside `vim`.
 
 If you want a more in-depth tutorial run `vimtutor` on the command line.
+
+### Useful Commands
+If you want to view the contents of a file, you can use `less <filename>`. This will allow you to page through the contents of the file. Use `page up` and `page down` to navigate. Type `q` to quit. 
